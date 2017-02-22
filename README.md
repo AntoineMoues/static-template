@@ -35,7 +35,7 @@ And now you can fully use the template !
 ## Authors
 
 * [Joseph Quercia](https://github.com/joZephhh)
-* [Antoine Moues](https://github.com/AntoineMoues)
+* [Antoine Mouës](https://github.com/AntoineMoues)
 * [Hélène Ta](https://github.com/Thaelene)
 
 ## License
