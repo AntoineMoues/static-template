@@ -20,17 +20,25 @@ cd .../static-template/builder
 Then install node-modules
 
 ```
-sudo npm i
+sudo npm install
 ```
 
-And now you can fully use the template !
+Now, go to http://localhost:8888/ to view your project.
 
 ## Built With
 
 * HTML5 / CSS3
 * Javascript
-* Node.js
+* Gulp.js
 
+## Tasks
+
+* **"fonts"** moves your fonts from src to dist
+* **"sass"** from a .scss to a .css, then adds autoprefix and renames it  
+* **"js-html"** concatenates all your .js then minifies it
+* **"images"** minifies your images
+* **"openBrowser"** opens automatically your project in your browser
+* **"watch"** watches the changes in your files
 
 ## Authors
 
