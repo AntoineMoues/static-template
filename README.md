@@ -23,13 +23,12 @@ Then install node-modules
 sudo npm install
 ```
 
-Now, go to http://localhost:8888/ to view your project.
 
 ## Built With
 
 * HTML5 / CSS3
 * Javascript
-* Gulp.js
+* Gulp.js v4.0
 
 ## Tasks
 
