@@ -36,7 +36,6 @@ sudo npm install
 * **"sass"** from a .scss to a .css, then adds autoprefix and renames it  
 * **"js-html"** concatenates all your .js then minifies it
 * **"images"** minifies your images
-* **"openBrowser"** opens automatically your project in your browser
 * **"watch"** watches the changes in your files
 
 ## Authors
