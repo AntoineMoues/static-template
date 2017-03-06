@@ -1,3 +1,1 @@
-let loaded = "Yes";
-
-console.log(loaded);
+console.log("script linked");
