@@ -13,7 +13,7 @@ const gulp = require('gulp'),
             gulp_notify = require('gulp-notify'),
             gulp_clean = require('gulp-clean'),
             gulp_browsersync = require('browser-sync').create();
-            gulp_reload = gulp_browsersync.reload;
+
 
         // CSS
              gulp_sass  = require('gulp-sass'),
@@ -39,6 +39,11 @@ const gulp = require('gulp'),
   gulp.task('default', gulp.series(clean, gulp.parallel(browsersync,fonts,sass,js_html,images,watch), () => {
 
   }));
+
+function gulp_reload(done) {
+    gulp_browsersync.reload()
+    done();
+}
 
   // WATCH FILES CHANGE
   function watch() {
