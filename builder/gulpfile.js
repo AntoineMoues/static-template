@@ -79,7 +79,7 @@ function clean() {
 
   // minimify images
   function images() {
-      gulp.src(config.src+'img/*')
+      gulp.src(config.src+'img/**')
           .pipe(gulp_imagemin())
           .pipe(gulp.dest(config.dist+'img'));
   }
